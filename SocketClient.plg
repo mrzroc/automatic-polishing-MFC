@@ -1,0 +1,146 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SocketClient - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SocketClient.pdb" /debug /machine:I386 /out:"Debug/SocketClient.exe" /pdbtype:sept  ".\Debug\SocketClient.obj" ".\Debug\SocketClientDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\SocketClient.res" "
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4076: invalid incremental status file "Debug/SocketClient.ilk"; linking nonincrementally
+SocketClientDlg.obj : error LNK2005: "double * Teach_Pos" (?Teach_Pos@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Teach_i" (?Teach_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Hoist_i" (?Polish_Hoist_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Reset_D" (?Polish_Reset_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Reset_xyz" (?Polish_Reset_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Fast_D" (?Polish_Fast_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Fast_xyz" (?Polish_Fast_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Advance_i" (?Polish_Advance_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_UP_D" (?Polish_UP_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_UP_xyz" (?Polish_UP_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Continue_D" (?Polish_Continue_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Continue_xyz" (?Polish_Continue_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Start_D" (?Polish_Start_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Start_xyz" (?Polish_Start_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Text_Force_c" (?Text_Force_c@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Text_Force_b" (?Text_Force_b@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Text_Force_a" (?Text_Force_a@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Text_D" (?Polish_Text_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Text_xyz" (?Polish_Text_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Correct_D" (?Polish_Correct_D@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Polish_Correct_xyz" (?Polish_Correct_xyz@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_z_max" (?LIN_z_max@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_z_min" (?LIN_z_min@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_z1" (?LIN_z1@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_z" (?LIN_z@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_y_max" (?LIN_y_max@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_y_min" (?LIN_y_min@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_y1" (?LIN_y1@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_y" (?LIN_y@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_x_max" (?LIN_x_max@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_x_min" (?LIN_x_min@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_x1" (?LIN_x1@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double LIN_x" (?LIN_x@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int save_stop_i" (?save_stop_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Socket_Client_j" (?Socket_Client_j@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double (* SaveData_Socket)[11]" (?SaveData_Socket@@3PAY0L@NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int ERR_switch" (?ERR_switch@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * ERR_Judge" (?ERR_Judge@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double (* ERR_Point)[3]" (?ERR_Point@@3PAY02NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_TEXT_i" (?Polish_TEXT_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * TEXT_POS" (?TEXT_POS@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Send_DeltaPosition" (?Send_DeltaPosition@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Send_Pos" (?Send_Pos@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Send_XYZ" (?Send_XYZ@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * True_Pos" (?True_Pos@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Pos_Correct" (?Pos_Correct@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Pos_Temporary" (?Pos_Temporary@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Pos_Realtime" (?Pos_Realtime@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Axis_workpiece_robot" (?Axis_workpiece_robot@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double * Check_Pos" (?Check_Pos@@3PANA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Release_point" (?Release_point@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Debug_switch" (?Debug_switch@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Case_force" (?Case_force@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strCase_force" (?strCase_force@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Progress_View" (?Progress_View@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Warning_view" (?Warning_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strRelease_point" (?strRelease_point@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Polish_view" (?Polish_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Connect_view" (?Connect_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Teach_X_view" (?Teach_X_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Teach_Y_view" (?Teach_Y_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Teach_Z_view" (?Teach_Z_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_X_view" (?Send_X_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Y_view" (?Send_Y_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Z_view" (?Send_Z_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_X1_view" (?Send_X1_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Y1_view" (?Send_Y1_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Z1_view" (?Send_Z1_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_X2_view" (?Send_X2_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Y2_view" (?Send_Y2_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString Send_Z2_view" (?Send_Z2_view@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double POS_Trans_X" (?POS_Trans_X@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double POS_Trans_Y" (?POS_Trans_Y@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double POS_Trans_Z" (?POS_Trans_Z@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double POS_Trans_A" (?POS_Trans_A@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double POS_Trans_H" (?POS_Trans_H@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strPOS_Trans_X" (?strPOS_Trans_X@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strPOS_Trans_Y" (?strPOS_Trans_Y@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strPOS_Trans_Z" (?strPOS_Trans_Z@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strPOS_Trans_A" (?strPOS_Trans_A@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strPOS_Trans_H" (?strPOS_Trans_H@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int SwitchPolishCase" (?SwitchPolishCase@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Switch_Case" (?Switch_Case@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strSaveData" (?strSaveData@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double MS_speed_min" (?MS_speed_min@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double MS_speed_medium" (?MS_speed_medium@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double MS_speed_max" (?MS_speed_max@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_x_min" (?MS_limit_x_min@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_x_max" (?MS_limit_x_max@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_y_min" (?MS_limit_y_min@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_y_max" (?MS_limit_y_max@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_z_min" (?MS_limit_z_min@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString MS_limit_z_max" (?MS_limit_z_max@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double MS_limit_Box" (?MS_limit_Box@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Correct_Length" (?Polish_Correct_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Correct_d" (?Polish_Correct_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Correct_i" (?Polish_Correct_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Text_Length" (?Polish_Text_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Text_d" (?Polish_Text_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Text_i" (?Polish_Text_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Start_Length" (?Polish_Start_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Start_d" (?Polish_Start_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Start_i" (?Polish_Start_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Continue_Length" (?Polish_Continue_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Continue_d" (?Polish_Continue_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Continue_i" (?Polish_Continue_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_UP_Length" (?Polish_UP_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_UP_d" (?Polish_UP_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_UP_i" (?Polish_UP_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Fast_Length" (?Polish_Fast_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Fast_d" (?Polish_Fast_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Fast_down_d" (?Polish_Fast_down_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Fast_i" (?Polish_Fast_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Fast_j" (?Polish_Fast_j@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Polish_Reset_Length" (?Polish_Reset_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Reset_d" (?Polish_Reset_d@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "int Polish_Reset_i" (?Polish_Reset_i@@3HA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Teach_Length" (?Teach_Length@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Teach_L" (?Teach_L@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "double Teach_d" (?Teach_d@@3NA) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strTeach_Length" (?strTeach_Length@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strTeach_X" (?strTeach_X@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strTeach_Y" (?strTeach_Y@@3VCString@@A) already defined in SocketClient.obj
+SocketClientDlg.obj : error LNK2005: "class CString strTeach_Z" (?strTeach_Z@@3VCString@@A) already defined in SocketClient.obj
+Debug/SocketClient.exe : fatal error LNK1169: one or more multiply defined symbols found
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+SocketClient.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

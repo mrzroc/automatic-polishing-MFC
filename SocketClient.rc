@@ -1,0 +1,332 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SocketClient.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SocketClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 390, 246
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SocketClient"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,21
+    LTEXT           "SocketClient 2.0 版",IDC_STATIC,37,7,79,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2010",IDC_STATIC,123,7,71,8
+    LTEXT           "KUKA机器人抛光系统使用说明——按使用先后顺序",
+                    IDC_STATIC,13,39,301,11
+    LTEXT           "步骤【1】在导入抛光点前需设置高度差补H，然后再坐标变换",
+                    IDC_STATIC,13,53,301,11
+    LTEXT           "步骤【2】设置安全运行速度，最小速度决定抛光点的步长，最大速度保证安全",
+                    IDC_STATIC,13,65,301,11
+    LTEXT           "步骤【3】导入增量抛光点，如果导入错误文件，可以清空数据后再次导入",
+                    IDC_STATIC,13,79,301,11
+    LTEXT           "步骤【4】点击KUKA的监听按钮，没有点击会显示未监听，点击后会显示已监听",
+                    IDC_STATIC,13,93,301,11
+    LTEXT           "步骤【5】与机器人成功交换数据时，显示框会显示等待指令发送",
+                    IDC_STATIC,13,108,301,11
+    LTEXT           "步骤【6】点击开始按钮，即可开始抛光，暂停、继续按钮不会打断期望轨迹",
+                    IDC_STATIC,13,122,301,11
+    LTEXT           "步骤【7】提刀或换刀后，继续抛光需点继续抛光，重头抛光需点开始",
+                    IDC_STATIC,13,136,301,11
+    LTEXT           "KUKA机器人抛光系统使用说明——按使用先后顺序",
+                    IDC_STATIC,13,161,301,11
+END
+
+IDD_SOCKETCLIENT_DIALOG DIALOGEX 0, 0, 500, 401
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WHUT—KUKA机器人抛光系统V2.0"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "IP",IDC_STATIC,18,22,9,8,0,WS_EX_TRANSPARENT
+    LTEXT           "端口",IDC_STATIC,14,43,17,8
+    EDITTEXT        IDC_ED_IP,37,21,66,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ED_PORT,37,41,30,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "监听",IDC_BTN_CONNECT,108,19,32,35
+    PUSHBUTTON      "退出",IDC_BTN_EXIT,114,65,30,19
+    EDITTEXT        IDC_ED_TEXT,186,41,34,14,ES_AUTOHSCROLL
+    LTEXT           "端口",IDC_STATIC,157,21,17,8
+    EDITTEXT        IDC_ED_LabViewPORT,186,21,34,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ADDRESS,8,88,138,15,ES_AUTOHSCROLL
+    LISTBOX         IDC_LISTBOX_POLISHINGDATE,7,201,295,187,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "期望力",IDC_STATIC,157,41,25,8
+    EDITTEXT        IDC_ED_FORCE,186,61,34,14,ES_AUTOHSCROLL
+    LTEXT           "测量力",IDC_STATIC,157,62,25,8
+    PUSHBUTTON      "监听",IDC_BUTTON6,156,82,62,19
+    PUSHBUTTON      "导入抛光点",IDC_BUTTON7,7,65,53,19
+    GROUPBOX        "LabVIEW通讯",IDC_STATIC,152,6,71,100
+    GROUPBOX        "KUKA KRC4通讯",IDC_STATIC,7,6,140,58
+    PUSHBUTTON      "清空数据",IDC_BUTTON8,68,65,38,19
+    GROUPBOX        "安全参数设置 单位:mm",IDC_STATIC,306,120,104,116
+    LTEXT           "速度",IDC_STATIC,315,151,17,8
+    LTEXT           "X轴限位",IDC_STATIC,311,169,29,8
+    EDITTEXT        IDC_MoveSafe_limit_x_min,346,166,27,14,ES_AUTOHSCROLL
+    LTEXT           "Y轴限位",IDC_STATIC,312,186,29,8
+    EDITTEXT        IDC_MoveSafe_limit_y_min,346,183,27,14,ES_AUTOHSCROLL
+    LTEXT           "Z轴限位",IDC_STATIC,312,203,29,8
+    EDITTEXT        IDC_MoveSafe_limit_z_min,346,200,27,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MoveSafe_limit_x_max,377,166,27,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MoveSafe_limit_y_max,377,183,27,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MoveSafe_limit_z_max,377,200,27,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MoveSafe_speed_min,346,148,27,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MoveSafe_speed_max,377,148,27,14,ES_AUTOHSCROLL
+    LTEXT           "MIN     MAX",IDC_STATIC,352,134,45,8
+    PUSHBUTTON      "开始",IDC_BUTTON9,11,119,30,23
+    PUSHBUTTON      "暂停",IDC_BUTTON10,50,119,30,23
+    PUSHBUTTON      "继续抛光",IDC_BUTTON11,168,119,40,23
+    PUSHBUTTON      "提刀",IDC_BUTTON12,133,119,30,23
+    PUSHBUTTON      "STOP",IDC_BTN_CONNECT2,263,111,38,36,0,WS_EX_CLIENTEDGE
+    GROUPBOX        "示教操作",IDC_STATIC,306,6,103,110
+    PUSHBUTTON      "Z-",IDC_BTN_EXIT4,315,92,21,18
+    EDITTEXT        IDC_Teach_Z,341,96,36,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Z+",IDC_BTN_EXIT5,381,93,21,18
+    PUSHBUTTON      "Y-",IDC_BTN_EXIT6,315,70,21,18
+    EDITTEXT        IDC_Teach_Y,341,75,36,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Y+",IDC_BTN_EXIT7,381,71,21,18
+    PUSHBUTTON      "X-",IDC_BTN_EXIT8,315,49,21,18
+    EDITTEXT        IDC_Teach_X,341,53,36,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "X+",IDC_BTN_EXIT9,381,50,21,18
+    PUSHBUTTON      "示教",IDC_BTN_EXIT2,315,17,36,29
+    EDITTEXT        IDC_Teach_d,377,33,26,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "增量",IDC_STATIC,355,36,17,8
+    PUSHBUTTON      "一键换刀",IDC_BUTTON13,213,119,40,23
+    EDITTEXT        IDC_MoveSafe_speed_medium,377,14,26,14,ES_AUTOHSCROLL
+    GROUPBOX        "保存数据",IDC_STATIC,306,333,103,57
+    EDITTEXT        IDC_Polish_view,100,161,131,16,ES_AUTOHSCROLL
+    LTEXT           "速度",IDC_STATIC,355,17,17,8
+    PUSHBUTTON      "打开文件",IDC_BUTTON2,359,367,42,18
+    PUSHBUTTON      "保存数据",IDC_SAVE_DATA,311,367,42,18
+    EDITTEXT        IDC_SAVEDATA_NAME,310,347,94,16,ES_AUTOHSCROLL
+    GROUPBOX        "坐标变换",IDC_STATIC,306,241,103,86
+    EDITTEXT        IDC_POS_Trans_X,322,255,42,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,312,257,8,8
+    EDITTEXT        IDC_POS_Trans_Y,322,273,41,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,312,275,8,8
+    EDITTEXT        IDC_POS_Trans_Z,322,289,38,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,312,291,8,8
+    EDITTEXT        IDC_POS_Trans_A,333,307,38,14,ES_AUTOHSCROLL
+    LTEXT           "偏角",IDC_STATIC,311,309,18,8
+    PUSHBUTTON      "坐标变换",IDC_Trans_POS,367,255,36,31
+    PUSHBUTTON      "变换角",IDC_Trans_POS2,375,305,28,16
+    GROUPBOX        "发送坐标显示",IDC_STATIC,226,6,76,100
+    EDITTEXT        IDC_Send_Z,229,84,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Send_Y,229,65,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Send_X,229,46,30,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Send_Z1,263,84,36,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Send_Y1,263,65,36,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Send_X1,263,46,36,14,ES_AUTOHSCROLL
+    LTEXT           "增量    理想",IDC_STATIC,239,22,49,8
+    LTEXT           "坐标    坐标",IDC_STATIC,239,34,49,8
+    EDITTEXT        IDC_Connect_view,68,41,36,13,ES_AUTOHSCROLL
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,
+                    98,181,200,13
+    EDITTEXT        IDC_Send_View,453,166,31,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "继续",IDC_BUTTON15,89,119,30,23
+    GROUPBOX        "正常抛光/重头抛光/暂停/继续",IDC_STATIC,7,107,119,39
+    GROUPBOX        "提刀/换刀后继续抛光/一键换刀",IDC_STATIC,130,107,129,39
+    LTEXT           "H",IDC_STATIC,361,293,8,8
+    EDITTEXT        IDC_POS_Trans_H,370,289,34,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "测试",IDC_BTN,422,166,30,19
+    EDITTEXT        IDC_Progress_View,236,161,62,16,ES_AUTOHSCROLL
+    LTEXT           "最小运动包容盒尺寸",IDC_STATIC,312,220,73,8
+    EDITTEXT        IDC_Move_limit_Box,385,217,19,14,ES_AUTOHSCROLL,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "调试",IDC_Debugging,420,129,61,19
+    GROUPBOX        "抛光进程显示",IDC_STATIC,7,149,295,49
+    GROUPBOX        "辅助功能按钮",IDC_STATIC,414,6,73,385
+    PUSHBUTTON      "矫正",IDC_SwitchPolish_Correct,419,95,61,19
+    PUSHBUTTON      "释放抛光点",IDC_SwitchPolish_Text,11,179,48,16
+    PUSHBUTTON      "刚度测试",IDC_BTN_EXIT3,419,27,61,19
+    PUSHBUTTON      "磨损试验",IDC_BTN_EXIT10,419,61,61,19
+    EDITTEXT        IDC_Release_point,62,180,31,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Warning_view,12,161,82,16,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "SocketClient Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "SocketClient\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "SocketClient.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "SocketClient 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 383
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_SOCKETCLIENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 493
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 394
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 SocketClient(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SocketClient.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
